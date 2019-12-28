@@ -1,0 +1,11 @@
+{
+  "verbose": false,
+  "cacheDirectory": ".cache-jest",
+  "coverageDirectory": ".coverage",
+  "collectCoverageFrom": ["**/lib/**/*.js"],
+  "modulePathIgnorePatterns": ["<rootDir>/node_modules/.*"],
+  "testMatch": ["**/tests/**/*.js?(x)"],
+  "testEnvironment": "node",
+  "transform": {},
+  "globals": {}
+}
