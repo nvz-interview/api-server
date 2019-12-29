@@ -1,13 +1,14 @@
 {
-  "name": "base-fe-server",
+  "name": "api-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "API Server",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "nodemon lib/index.js localhost 8080",
+    "start": "nodemon lib/index.js 8080",
     "test": "jest --config=.jestrc.json --no-cache"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "casual": "^1.6.2",
     "compression": "^1.7.4",
     "express": "^4.17.1",
@@ -16,6 +17,5 @@
   "devDependencies": {
     "jest": "^24.9.0",
     "nodemon": "1.18.4"
-  },
-  "keywords": []
+  }
 }
